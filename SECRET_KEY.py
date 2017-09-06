@@ -6,14 +6,14 @@ SECRETKEY = ''
 # 生成KEY,随机
 def write_key():
     SECRETKEY = random_key()
-    print('本次SECRET_KEY为随机生成,生成内容绝不重复:')
+    print('SECRET_KEY is:')
     print('')
     print('SECRET_KEY=%s' % (SECRETKEY))
     print('')
     print('')
     print('')
     print('')
-    print('复制SECRET_KEY替换到config.py [SECRET_KEY],重启服务器即可')
+    print('copy [SECRET_KEY],reboot')
 
 # 生成FLSAK SECRET_KEY
 def random_key():
